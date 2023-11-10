@@ -1,0 +1,154 @@
+@media screen and (max-width:576px) {
+    .headerlink{
+        display: none;
+
+    }
+    #start-submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        height: 39px;
+        width: 150px;
+    }
+    #sidebar-icon{
+        display: inline-block;
+        float: left;
+        transform: translate(-12px,10px) scale(1.7) ;
+        
+    }
+    .photos{
+        display: none;
+        float: left;
+    }
+    .property{
+        top: 0;
+        margin: 250px auto -250px;
+    }
+    .text1 ,.text2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    .range{
+        display: none;
+    }
+    .text h2{
+        height: fit-content;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 25px;
+        transform: translate(10px,-25px);
+    } 
+    .text h2 br{
+        display: none;
+    }
+    hr{
+        display: none;
+    }  
+    .record{
+        width: 50%;
+        height: 900px;
+        flex-direction: column;
+        margin: 400px auto 200px;
+    }
+    .record-left{
+        margin: auto;
+    }
+    .record-right{
+        margin: auto;
+        flex-direction: column;
+    }
+    .end-page {
+        margin: auto;
+        width: 570px;
+        
+    }
+    .end-page img{
+        right: 0;
+    }
+    .end-page-text{
+        left: 10px;
+    }
+    #mind{
+        background-color: rgba(255, 221, 148, 0.616);
+    }
+    .footer {
+        flex-direction: column;
+        width: 576px;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+        margin-top: 130px;
+        height: 500px;
+        background-color: white;
+    }
+    .li1{
+        display: block;
+        width: 90%;
+    }
+    .li-right{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 300px;
+    }
+    .lists{
+        margin: auto;
+    }
+    .li3{
+        transform: translatex(36px);
+    }
+    .li4{
+        transform: translateX(-18px);
+    }
+    .li5{
+        transform: translateX(-28px);
+    }
+    body{
+        overflow-x: hidden;
+        width: 600px;
+    }
+}
+@media screen and (min-width:576px) {
+    body{
+        /* background-color: crimson; */
+    }
+    
+}
+@media screen and (min-width:768px) {
+    body{
+        /* background-color: blue; */
+    }
+    
+}
+@media screen and (min-width:992px) {
+    body{
+        /* background-color: green; */
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
